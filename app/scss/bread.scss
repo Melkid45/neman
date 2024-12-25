@@ -1,0 +1,46 @@
+.bread{
+    width: 100%;
+    margin-top: 54px;
+    &__body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 10px;
+        span{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 21.79px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #A0BEC3;
+        }
+        svg{
+            width: 8px;
+            height: 8px;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 21.79px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #367589;
+        }
+    }
+}
+.bread.diff{
+    margin-top: 156px;
+    padding-left: 35px;
+    .bread__body{
+        justify-content: flex-start;
+    }
+}
+.bread.alt{
+    margin-top: 62px;
+    .bread__body{
+        justify-content: flex-start;
+    }
+}

@@ -1,0 +1,72 @@
+.contact{
+    width: 100%;
+    margin-top: 68px;
+    &__body{
+        display: flex;
+        gap: 23px;
+        img{
+            width: 685px;
+            height: 600px;
+            border-radius: 20px;
+        }
+        &-info{
+            height: 600px;
+            border-radius: 20px;
+            width: 685px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 30px 125px 32px 37px;
+            box-shadow: 0px 3px 29.1px 0px #0000001A;
+            &-top{
+                display: flex;
+                flex-direction: column;
+                h1{
+                    font-family: var(--title);
+                    font-size: 32px;
+                    font-weight: 400;
+                    line-height: 35.1px;
+                    text-align: left;
+                    text-underline-position: from-font;
+                    text-decoration-skip-ink: none;
+                    color: #000000;
+                }
+                p{
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 21.79px;
+                    text-align: left;
+                    text-underline-position: from-font;
+                    text-decoration-skip-ink: none;
+                    color: #000000;
+                }
+            }
+            &-bot{
+                display: flex;
+                flex-direction: column;
+                gap: 18px;
+                a{
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    svg{
+                        max-width: 23px;
+                        max-height: 23px;
+                    }
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 27.24px;
+                    text-align: left;
+                    text-underline-position: from-font;
+                    text-decoration-skip-ink: none;
+                    color: #000000;
+                }
+                &-wrap{
+                    display: flex;
+                    align-items: center;
+                    gap: 24px;
+                }
+            }
+        }
+    }
+}

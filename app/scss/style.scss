@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Title';
+    src: url(../fonts/europeextnormal.woff);
+}
+@import './reset';
+:root{
+    --man: "Manrope", serif;
+    --open: "Open Sans", serif;
+    --title: 'Title';
+}
+body{
+    max-width: 1920px;
+    background: #FFFFFF;
+    font-family: var(--open);
+}
+.container{
+    max-width: 1390px;
+    width: 100%;
+    margin: 0 auto;
+}

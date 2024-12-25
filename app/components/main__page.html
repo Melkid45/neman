@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">    
+<link rel="stylesheet" href="../scss/style.min.css">
+    <title>HEMAH</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__body">
+                <nav class="header__body-menu">
+                    <ul>
+                        <li>
+                            <a href="">Главная</a>
+                        </li>
+                        <li>
+                            <a href="">Продукция</a>
+                        </li>
+                        <li>
+                            <a href="">О компании</a>
+                        </li>
+                        <li>
+                            <a href="">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__body-contact">
+                    <a href="" class="header__body-contact-logo">
+                        <img src="../images/dist/header__logo.svg" alt="">
+                    </a>
+                    <a href="" class="header__body-contact-tel">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.789 12.8215V15.1984C16.7899 15.4191 16.7446 15.6375 16.656 15.8397C16.5674 16.0418 16.4375 16.2233 16.2746 16.3725C16.1117 16.5217 15.9193 16.6353 15.7099 16.706C15.5004 16.7766 15.2785 16.8029 15.0583 16.783C12.6154 16.5181 10.2688 15.685 8.20703 14.3506C6.28885 13.1342 4.66258 11.5111 3.44369 9.59672C2.102 7.52973 1.26703 5.17638 1.00644 2.72733C0.986605 2.50823 1.0127 2.2874 1.08305 2.07892C1.15341 1.87043 1.2665 1.67885 1.41511 1.51637C1.56372 1.35389 1.74461 1.22407 1.94624 1.13518C2.14788 1.0463 2.36585 1.00028 2.58629 1.00008H4.96796C5.35324 0.996292 5.72675 1.13246 6.01888 1.38319C6.31101 1.63392 6.50181 1.98211 6.55574 2.36286C6.65626 3.12354 6.84269 3.87043 7.11146 4.58928C7.21827 4.87286 7.24139 5.18107 7.17807 5.47737C7.11476 5.77367 6.96766 6.04564 6.75421 6.26107L5.74597 7.26731C6.87612 9.25091 8.52177 10.8933 10.5093 12.0212L11.5176 11.015C11.7334 10.8019 12.0059 10.6551 12.3028 10.5919C12.5997 10.5288 12.9085 10.5518 13.1927 10.6584C13.9129 10.9267 14.6613 11.1127 15.4235 11.2131C15.8091 11.2673 16.1613 11.4612 16.4131 11.7578C16.6649 12.0543 16.7986 12.4329 16.789 12.8215Z" stroke="white" stroke-width="1.57895" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        +7(495)-799-15-15                        
+                    </a>
+                    <div class="header__body-contact-social">
+                        <a class="search__open" href="#seacrh">
+                            <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.56482 7.71188C2.56482 4.34291 5.29591 1.61181 8.66488 1.61181C12.0339 1.61181 14.7649 4.34291 14.7649 7.71188C14.7649 9.35728 14.1135 10.8505 13.0544 11.9478C13.026 11.9695 12.9986 11.9933 12.9726 12.0194C12.9466 12.0454 12.9227 12.0728 12.901 12.1012C11.8037 13.1604 10.3104 13.8119 8.66488 13.8119C5.29591 13.8119 2.56482 11.0809 2.56482 7.71188ZM13.5186 13.7051C12.1932 14.7798 10.5042 15.4238 8.66488 15.4238C4.40573 15.4238 0.953003 11.971 0.953003 7.71188C0.953003 3.45273 4.40573 0 8.66488 0C12.924 0 16.3768 3.45273 16.3768 7.71188C16.3768 9.55111 15.7329 11.24 14.6583 12.5653L17.8674 15.7745C18.1822 16.0892 18.1822 16.5995 17.8674 16.9142C17.5527 17.2289 17.0424 17.2289 16.7277 16.9142L13.5186 13.7051Z" fill="#367589"/>
+                            </svg>                            
+                        </a>
+                        <a href="">
+                            <svg width="15" height="17" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.25316 0C5.02771 0 3.22363 1.80408 3.22363 4.02954C3.22363 6.25499 5.02771 8.05907 7.25316 8.05907C9.47862 8.05907 11.2827 6.25499 11.2827 4.02954C11.2827 1.80408 9.47862 0 7.25316 0ZM4.83544 4.02954C4.83544 2.69426 5.91789 1.61181 7.25316 1.61181C8.58844 1.61181 9.67089 2.69426 9.67089 4.02954C9.67089 5.36481 8.58844 6.44726 7.25316 6.44726C5.91789 6.44726 4.83544 5.36481 4.83544 4.02954Z" fill="#367589"/>
+                                <path d="M4.02954 9.67089C2.96084 9.67089 1.93591 10.0954 1.18022 10.8511C0.424539 11.6068 0 12.6317 0 13.7004V15.3122C0 15.7573 0.360817 16.1181 0.805907 16.1181C1.251 16.1181 1.61181 15.7573 1.61181 15.3122V13.7004C1.61181 13.0592 1.86654 12.4442 2.31995 11.9908C2.77336 11.5374 3.38832 11.2827 4.02954 11.2827H10.4768C11.118 11.2827 11.733 11.5374 12.1864 11.9908C12.6398 12.4442 12.8945 13.0592 12.8945 13.7004V15.3122C12.8945 15.7573 13.2553 16.1181 13.7004 16.1181C14.1455 16.1181 14.5063 15.7573 14.5063 15.3122V13.7004C14.5063 12.6317 14.0818 11.6068 13.3261 10.8511C12.5704 10.0954 11.5455 9.67089 10.4768 9.67089H4.02954Z" fill="#367589"/>
+                            </svg>                            
+                        </a>
+                        <a href="">
+                            <svg width="19" height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.2746 11.5062H16.3385L10.3808 2.07773H10.3178C10.3336 2.36106 10.352 2.67324 10.3729 3.01428C10.3939 3.35008 10.4097 3.70423 10.4202 4.07676C10.4359 4.44403 10.4464 4.81656 10.4516 5.19432V11.5062H8.97205V0H10.8924L16.8265 9.38126H16.8816C16.8711 9.1504 16.858 8.86445 16.8422 8.52341C16.8265 8.18237 16.8108 7.82297 16.795 7.4452C16.7845 7.06218 16.7793 6.70015 16.7793 6.35911V0H18.2746V11.5062Z" fill="#367589"/>
+                                <path d="M6.46142 11.5062H0V0H6.46142V1.38515H1.61339V4.80868H6.17023V6.1781H1.61339V10.1132H6.46142V11.5062Z" fill="#367589"/>
+                            </svg>                            
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="main__body">
+                <div class="splide" id="main" role="group" aria-label="Splide Basic HTML Example">
+                    <div class="splide__arrows">
+                        <button class="splide__arrow splide__arrow--prev">
+                            <svg width="34" height="64" viewBox="0 0 34 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2.00055 62.0005L32.0005 32.0005L2.00055 2.00049" stroke="#367589"
+                                    stroke-width="2.64326" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <button class="splide__arrow splide__arrow--next">
+                            <svg width="34" height="64" viewBox="0 0 34 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2.00055 62.0005L32.0005 32.0005L2.00055 2.00049" stroke="#367589"
+                                    stroke-width="2.64326" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <img src="../images/dist/Mask group.webp" alt="">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="../images/dist/Mask group.webp" alt="">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="../images/dist/Mask group.webp" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="about">
+        <div class="container">
+            <div class="about__body">
+                <img src="../images/dist/about.webp" alt="">
+                <div class="about__body-info">
+                    <h1>HEMAH - oтечественный производитель электроприводов</h1>
+                    <p>НЕМАН – это электроприводы отечественного производства  для воздухорегулирующих и противопожарных
+                        клапанов.  Это собственная разработка модельного ряда, учитывающая специфику и климат всех регионов
+                        РФ, включая морские прибрежные зоны и Крайний Север</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main__catalog">
+        <div class="container">
+            <div class="main__catalog-body">
+                <h2>Категории продукции</h2>
+                <div class="main__catalog-body-block">
+                    <div class="main__catalog-body-block-top">
+                        <div class="main__catalog-body-block-top-item">
+                            <img src="../images/dist/catalog/1.png" alt="">
+                            <p>
+                                Электроприводы <br>
+                                для воздушных заслонок
+                            </p>
+                            <a class="main__catalog-body-block-top-item-btn" href="">
+                                <svg width="43" height="43" viewBox="0 0 43 43" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M21.4224 42.667C33.2046 42.667 42.7559 33.1157 42.7559 21.3335C42.7559 9.55134 33.2046 0 21.4224 0C9.64021 0 0.0888672 9.55134 0.0888672 21.3335C0.0888672 33.1157 9.64021 42.667 21.4224 42.667ZM28.0061 20.744L20.412 13.1499C19.946 12.6839 19.1904 12.6839 18.7244 13.1499C18.2584 13.6159 18.2584 14.3714 18.7244 14.8374L25.4747 21.5878L18.7244 28.3381C18.2584 28.8041 18.2584 29.5597 18.7244 30.0257C19.1904 30.4917 19.9459 30.4917 20.412 30.0257L28.0061 22.4316C28.4721 21.9656 28.4721 21.21 28.0061 20.744Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="main__catalog-body-block-top-wrap">
+                            <div class="main__catalog-body-block-top-wrap-item">
+                                <img src="../images/dist/catalog/2.png" alt="">
+                                <p>
+                                    Приводы <br>
+                                    специального назначения
+                                </p>
+                                <a class="main__catalog-body-block-top-item-btn" href="">
+                                    <svg width="43" height="43" viewBox="0 0 43 43" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M21.4224 42.667C33.2046 42.667 42.7559 33.1157 42.7559 21.3335C42.7559 9.55134 33.2046 0 21.4224 0C9.64021 0 0.0888672 9.55134 0.0888672 21.3335C0.0888672 33.1157 9.64021 42.667 21.4224 42.667ZM28.0061 20.744L20.412 13.1499C19.946 12.6839 19.1904 12.6839 18.7244 13.1499C18.2584 13.6159 18.2584 14.3714 18.7244 14.8374L25.4747 21.5878L18.7244 28.3381C18.2584 28.8041 18.2584 29.5597 18.7244 30.0257C19.1904 30.4917 19.9459 30.4917 20.412 30.0257L28.0061 22.4316C28.4721 21.9656 28.4721 21.21 28.0061 20.744Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="main__catalog-body-block-top-wrap-item">
+                                <img src="../images/dist/catalog/3.png" alt="">
+                                <p>
+                                    Запорно-регулирующая <br>
+                                    арматура с электроприводами
+                                </p>
+                                <a class="main__catalog-body-block-top-item-btn" href="">
+                                    <svg width="43" height="43" viewBox="0 0 43 43" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M21.4224 42.667C33.2046 42.667 42.7559 33.1157 42.7559 21.3335C42.7559 9.55134 33.2046 0 21.4224 0C9.64021 0 0.0888672 9.55134 0.0888672 21.3335C0.0888672 33.1157 9.64021 42.667 21.4224 42.667ZM28.0061 20.744L20.412 13.1499C19.946 12.6839 19.1904 12.6839 18.7244 13.1499C18.2584 13.6159 18.2584 14.3714 18.7244 14.8374L25.4747 21.5878L18.7244 28.3381C18.2584 28.8041 18.2584 29.5597 18.7244 30.0257C19.1904 30.4917 19.9459 30.4917 20.412 30.0257L28.0061 22.4316C28.4721 21.9656 28.4721 21.21 28.0061 20.744Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__catalog-body-block-bot">
+                        <div class="main__catalog-body-block-bot-item">
+                            <img src="../images/dist/catalog/4.png" alt="">
+                            <p>
+                                Взрывозащищенные и <br>сверхбыстрые привода <br>IP66
+                            </p>
+                            <a class="main__catalog-body-block-top-item-btn" href="">
+                                <svg width="43" height="43" viewBox="0 0 43 43" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M21.4224 42.667C33.2046 42.667 42.7559 33.1157 42.7559 21.3335C42.7559 9.55134 33.2046 0 21.4224 0C9.64021 0 0.0888672 9.55134 0.0888672 21.3335C0.0888672 33.1157 9.64021 42.667 21.4224 42.667ZM28.0061 20.744L20.412 13.1499C19.946 12.6839 19.1904 12.6839 18.7244 13.1499C18.2584 13.6159 18.2584 14.3714 18.7244 14.8374L25.4747 21.5878L18.7244 28.3381C18.2584 28.8041 18.2584 29.5597 18.7244 30.0257C19.1904 30.4917 19.9459 30.4917 20.412 30.0257L28.0061 22.4316C28.4721 21.9656 28.4721 21.21 28.0061 20.744Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="main__catalog-body-block-bot-item">
+                            <img src="../images/dist/catalog/5.png" alt="">
+                            <p>
+                                Системные решения и <br>дополнительное <br> оборудование
+                            </p>
+                            <a class="main__catalog-body-block-top-item-btn" href="">
+                                <svg width="43" height="43" viewBox="0 0 43 43" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M21.4224 42.667C33.2046 42.667 42.7559 33.1157 42.7559 21.3335C42.7559 9.55134 33.2046 0 21.4224 0C9.64021 0 0.0888672 9.55134 0.0888672 21.3335C0.0888672 33.1157 9.64021 42.667 21.4224 42.667ZM28.0061 20.744L20.412 13.1499C19.946 12.6839 19.1904 12.6839 18.7244 13.1499C18.2584 13.6159 18.2584 14.3714 18.7244 14.8374L25.4747 21.5878L18.7244 28.3381C18.2584 28.8041 18.2584 29.5597 18.7244 30.0257C19.1904 30.4917 19.9459 30.4917 20.412 30.0257L28.0061 22.4316C28.4721 21.9656 28.4721 21.21 28.0061 20.744Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="main__catalog-body-block-bot-item">
+                            <p>
+                                Перейти в каталог
+                            </p>
+                            <a class="main__catalog-body-block-top-item-btn" href="">
+                                <svg width="43" height="43" viewBox="0 0 43 43" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M21.4224 42.667C33.2046 42.667 42.7559 33.1157 42.7559 21.3335C42.7559 9.55134 33.2046 0 21.4224 0C9.64021 0 0.0888672 9.55134 0.0888672 21.3335C0.0888672 33.1157 9.64021 42.667 21.4224 42.667ZM28.0061 20.744L20.412 13.1499C19.946 12.6839 19.1904 12.6839 18.7244 13.1499C18.2584 13.6159 18.2584 14.3714 18.7244 14.8374L25.4747 21.5878L18.7244 28.3381C18.2584 28.8041 18.2584 29.5597 18.7244 30.0257C19.1904 30.4917 19.9459 30.4917 20.412 30.0257L28.0061 22.4316C28.4721 21.9656 28.4721 21.21 28.0061 20.744Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main__news">
+        <div class="container">
+            <div class="main__news-body">
+                <h2>Новости</h2>
+                <div class="main__news-body-block">
+                    <a href="" class="main__news-body-block-item">
+                        <img src="../images/dist/news.png" alt="">
+                        <div class="main__news-body-block-item-info">
+                            <span>10.10.2024</span>
+                            <p>Первая серийная партия реверсивых приводов НЕМАН</p>
+                        </div>
+                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M4.15404 0.149894L15.9306 0.710682C16.6533 0.745094 17.2112 1.35883 17.1768 2.0815L16.616 13.8581C16.5816 14.5808 15.9679 15.1387 15.2452 15.1043C14.5225 15.0699 13.9646 14.4561 13.999 13.7335L14.4094 5.1159L2.3396 16.0884C1.80426 16.5751 0.975762 16.5356 0.489091 16.0003C0.00242007 15.465 0.0418726 14.6365 0.577211 14.1498L12.647 3.17727L4.02942 2.76691C3.30676 2.7325 2.74881 2.11876 2.78323 1.39609C2.81764 0.673423 3.43137 0.115481 4.15404 0.149894Z"
+                                fill="#367589" />
+                        </svg>
+                    </a>
+                    <a href="" class="main__news-body-block-item">
+                        <img src="../images/dist/news.png" alt="">
+                        <div class="main__news-body-block-item-info">
+                            <span>10.10.2024</span>
+                            <p>Первая серийная партия реверсивых приводов НЕМАН</p>
+                        </div>
+                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M4.15404 0.149894L15.9306 0.710682C16.6533 0.745094 17.2112 1.35883 17.1768 2.0815L16.616 13.8581C16.5816 14.5808 15.9679 15.1387 15.2452 15.1043C14.5225 15.0699 13.9646 14.4561 13.999 13.7335L14.4094 5.1159L2.3396 16.0884C1.80426 16.5751 0.975762 16.5356 0.489091 16.0003C0.00242007 15.465 0.0418726 14.6365 0.577211 14.1498L12.647 3.17727L4.02942 2.76691C3.30676 2.7325 2.74881 2.11876 2.78323 1.39609C2.81764 0.673423 3.43137 0.115481 4.15404 0.149894Z"
+                                fill="#367589" />
+                        </svg>
+                    </a>
+                    <a href="" class="main__news-body-block-item">
+                        <img src="../images/dist/news.png" alt="">
+                        <div class="main__news-body-block-item-info">
+                            <span>10.10.2024</span>
+                            <p>Первая серийная партия реверсивых приводов НЕМАН</p>
+                        </div>
+                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M4.15404 0.149894L15.9306 0.710682C16.6533 0.745094 17.2112 1.35883 17.1768 2.0815L16.616 13.8581C16.5816 14.5808 15.9679 15.1387 15.2452 15.1043C14.5225 15.0699 13.9646 14.4561 13.999 13.7335L14.4094 5.1159L2.3396 16.0884C1.80426 16.5751 0.975762 16.5356 0.489091 16.0003C0.00242007 15.465 0.0418726 14.6365 0.577211 14.1498L12.647 3.17727L4.02942 2.76691C3.30676 2.7325 2.74881 2.11876 2.78323 1.39609C2.81764 0.673423 3.43137 0.115481 4.15404 0.149894Z"
+                                fill="#367589" />
+                        </svg>
+                    </a>
+                    <a href="" class="main__news-body-block-item">
+                        <img src="../images/dist/news.png" alt="">
+                        <div class="main__news-body-block-item-info">
+                            <span>10.10.2024</span>
+                            <p>Первая серийная партия реверсивых приводов НЕМАН</p>
+                        </div>
+                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M4.15404 0.149894L15.9306 0.710682C16.6533 0.745094 17.2112 1.35883 17.1768 2.0815L16.616 13.8581C16.5816 14.5808 15.9679 15.1387 15.2452 15.1043C14.5225 15.0699 13.9646 14.4561 13.999 13.7335L14.4094 5.1159L2.3396 16.0884C1.80426 16.5751 0.975762 16.5356 0.489091 16.0003C0.00242007 15.465 0.0418726 14.6365 0.577211 14.1498L12.647 3.17727L4.02942 2.76691C3.30676 2.7325 2.74881 2.11876 2.78323 1.39609C2.81764 0.673423 3.43137 0.115481 4.15404 0.149894Z"
+                                fill="#367589" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="area">
+        <div class="container">
+            <div class="area__body">
+                <h2>Область применения</h2>
+                <div class="splide" id="area" role="group" aria-label="Splide Basic HTML Example">
+                    <div class="splide__arrows">
+                        <button class="splide__arrow splide__arrow--prev">
+                            <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.2695 27.5547L23.1367 18.6875L14.2695 9.82031" stroke="#344054"
+                                    stroke-width="2.96164" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+    
+                        </button>
+                        <button class="splide__arrow splide__arrow--next">
+                            <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.2695 27.5547L23.1367 18.6875L14.2695 9.82031" stroke="#344054"
+                                    stroke-width="2.96164" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <img src="../images/dist/area.webp" alt="">
+                                <p>Железнодорожный <br> транспорт</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feedback">
+        <div class="container">
+            <div class="feedback__body">
+                <img src="../images/dist/feed.webp" alt="">
+                <h2>Нужна помощь в подборе электропривода?</h2>
+                <div class="feedback__body-main">
+                    <h3>Оставьте контактные данные, чтобы с вами связался специалист</h3>
+                    <form action="" class="feedback__body-main-form">
+                        <input placeholder="Введите имя" type="text">
+                        <input placeholder="Введите номер телефона" type="tel">
+                        <input placeholder="Введите почту" type="email">
+                        <button>
+                            Отправить заявку
+                            <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M4.49072 0.58074L16.2673 1.14153C16.99 1.17594 17.5479 1.78968 17.5135 2.51235L16.9527 14.2889C16.9183 15.0116 16.3046 15.5695 15.5819 15.5351C14.8592 15.5007 14.3013 14.887 14.3357 14.1643L14.746 5.54675L2.67627 16.5193C2.14093 17.0059 1.31243 16.9665 0.825761 16.4312C0.33909 15.8958 0.378543 15.0673 0.913881 14.5806L12.9837 3.60812L4.3661 3.19776C3.64343 3.16334 3.08548 2.54961 3.1199 1.82694C3.15431 1.10427 3.76805 0.546327 4.49072 0.58074Z"
+                                    fill="#367589" />
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__body">
+                <div class="footer__body-main">
+                    <div class="footer__body-main-info">
+                        <a class="footer__body-main-info-logo" href="">
+                            <img src="../images/dist/footer__logo.svg" alt="">
+                        </a>
+                        <nav class="footer__body-main-info-menu">
+                            <ul>
+                                <li>
+                                    <a href="">Главная</a>
+                                </li>
+                                <li>
+                                    <a href="">Продукция</a>
+                                </li>
+                                <li>
+                                    <a href="">О компании</a>
+                                </li>
+                                <li>
+                                    <a href="">Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer__body-main-social">
+                        <a href="">
+                            <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <ellipse cx="16.8" cy="16.7418" rx="16.8" ry="16.7418" fill="white"/>
+                                <path d="M23.9223 18.3341C23.7069 18.0418 23.6587 17.7459 23.7764 17.4461C24.0701 16.6463 28.3484 11.5661 26.5661 11.5661C25.3414 11.5824 23.8686 11.5661 22.6945 11.5661C22.4765 11.6192 22.3355 11.7336 22.2472 11.9663C21.5606 13.5495 20.7204 15.4815 19.4891 16.7231C19.3271 16.8538 19.2261 16.8482 19.0415 16.7999C18.1778 15.8905 19.0988 12.7751 18.5735 11.5441C18.47 11.3031 18.2434 11.1942 18.0116 11.133C16.8389 10.8535 14.1607 11.0198 13.7237 11.5824C13.5988 11.7432 13.5814 11.831 13.6716 11.8454C14.0879 11.9111 14.3827 12.0682 14.5561 12.3167C14.8834 13.0374 15.1246 16.8764 14.1607 16.8764C13.1968 16.8764 11.6426 13.1088 11.2156 12.0644C11.1019 11.7499 10.8127 11.5696 10.5079 11.5164L7.65632 11.5382C7.15508 11.5382 6.87495 11.7854 7.05261 12.2836C8.53783 15.9703 11.788 23.1164 16.7729 22.9375C17.2723 22.9375 18.1314 23.1292 18.5214 22.6963C19.0574 21.9852 18.4037 20.7188 19.3228 20.2359C19.5545 20.1126 19.7948 20.2159 19.9939 20.3676C21.0162 21.146 21.5589 22.5122 22.8196 22.927C23.0413 23 23.2355 23.0183 23.4022 22.9818L26.0664 22.938C26.561 22.938 27.0483 22.7179 26.9459 22.1266C26.5575 20.8585 25.0098 19.555 23.9223 18.3341Z" fill="#367589"/>
+                            </svg>                                                     
+                        </a>
+                        <a href="">
+                            <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <ellipse cx="16.799" cy="16.7418" rx="16.8" ry="16.7418" fill="white"/>
+                                <path d="M22.9856 11.2088C23.1103 10.4033 22.3444 9.76755 21.6282 10.082L7.36384 16.3448C6.85025 16.5703 6.88782 17.3483 7.42049 17.5179L10.3622 18.4547C10.9236 18.6335 11.5315 18.541 12.0218 18.2023L18.654 13.6203C18.854 13.4821 19.072 13.7665 18.9011 13.9426L14.1271 18.8646C13.664 19.3421 13.756 20.1512 14.313 20.5005L19.658 23.8523C20.2575 24.2282 21.0287 23.8506 21.1408 23.1261L22.9856 11.2088Z" fill="#367589"/>
+                            </svg>                            
+                        </a>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="footer__body-soft">
+                    <p>© Copyright 2024, All Rights Reserved by HEMAH</p>
+                    <a href="">
+                        +7(495)-799-15-15
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="../js/main.min.js"></script>
+</body>
+</html>
+
+
